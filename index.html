@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>A little surprise</title>
+<meta name="description" content="A little surprise for whoever finds this page.">
+<style>
+:root{color-scheme:dark;--bg:#0b1020;--card:#141c33;--ink:#edf2ff;--muted:#aab5d0;--accent:#8b9cff}
+*{box-sizing:border-box}body{margin:0;min-height:100svh;display:grid;place-items:center;padding:24px;background:radial-gradient(ellipse at 20% 15%,#26315c 0,transparent 40%),radial-gradient(ellipse at 80% 85%,#402653 0,transparent 38%),var(--bg);color:var(--ink);font-family:system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:560px;width:100%;text-align:center;background:rgba(20,28,51,.82);border:1px solid #ffffff1c;border-radius:28px;padding:40px 28px;box-shadow:0 24px 80px #0005;backdrop-filter:blur(12px)}
+.mark{font-size:54px;margin-bottom:12px}.eyebrow{letter-spacing:.15em;text-transform:uppercase;color:var(--muted);font-size:12px}h1{font-size:clamp(2rem,8vw,3.2rem);line-height:1.1;margin:14px 0}p{color:var(--muted);line-height:1.7}.btn{display:inline-block;margin-top:12px;padding:12px 18px;border-radius:999px;background:var(--accent);color:#10152b;font-weight:700;text-decoration:none;cursor:pointer;border:0;font-size:1rem}.foot{margin-top:24px;font-size:12px;color:#8995b6}
+</style>
+</head>
+<body>
+<main>
+  <div class="mark">👀</div>
+  <div class="eyebrow">A tiny internet mystery</div>
+  <h1>Well, hello there.</h1>
+  <p>If you're reading this, you found the page.<br>That was the whole plot. Have a good day ✨</p>
+  <button class="btn" onclick="document.getElementById('extra').hidden=false;this.hidden=true">There's more?</button>
+  <p id="extra" hidden>Not really. Just wanted to make you smile.</p>
+  <div class="foot">A simple page • No personal information collected by this page</div>
+</main>
+<!-- Optional analytics: add your GoatCounter site code after setting up your counter.
+     See README for steps. -->
+</body>
+</html>
